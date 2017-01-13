@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+}
+
+#container {
+    width: 1000px;
+    border: none;
+    margin: 0 auto;
+    
+}
+#header{
+    height: 100px;
+    padding: 10px 0 10px 40px;
+    background: #f2f2f2;
+    font-family: monospace;
+}
+#brand {
+    float:left;
+}
+h1 a {
+    font-size:50px;
+    font-weight: 100;
+    color: rebeccapurple;
+    text-decoration: none;
+    
+}
+
+#searchbox {
+    float:right;
+    width: 400px;
+    height: 50px;    
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 8px;
+    font-size: 15px;
+    border-color:black;
+    border-radius: 7px;
+    color:aquamarine;
+    background: black url(images/Logomakr_2YrQ8l.png) right center no-repeat;
+
+}
+
+.submit{
+    margin-left: 20px;   
+   font-weight: bold;
+   color: white;
+    background: black;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    
+}
+
+#menu {
+    height: 70px;
+    background: #f2f2f2;
+    padding-top: 10px ;
+   
+}
+ul{
+    list-style:none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 80px;
+    height: 30px;
+    border-right: 1px solid black; 
+    font-family: monospace;
+    
+}
+
+#menu ul li:last-child {
+    border-right:none;
+}
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:black;
+    line-height: 30px;
+    -webkit-transition:font-size 0.3s ease;
+    -moz-transition:font-size 0.3s ease;
+    -o-transition:font-size 0.3s ease;
+    -ms-transition:font-size 0.3s ease;
+    transition:font-size 0.3s ease;
+  
+    
+}
+#menu ul li a:hover, #menu ul li a.active {
+    font-size:25px;
+    font-weight:bold;
+    
+}
+
+#introduction{
+    background: #f2f2f2; 
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#introduction p {
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    text-align: justify;
+}
+
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: #f2f2f2;
+}
+
+
+.sidebar h3{
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: monospace;
+    
+}
+#leftsidebar ul {
+    padding-left: 10px;
+}
+
+#leftsidebar ul li {
+   padding: 20px 0 20px 40px; 
+    background: url(images/arrows.png) no-repeat left center;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 25px; 
+    font-weight: bold;
+    background-color: #bfbfbf; 
+    border-radius: 5px;
+    padding: 3px;
+    -webkit-transition:font-size 0.3s ease;
+    -moz-transition:font-size 0.3s ease;
+    -o-transition:font-size 0.3s ease;
+    -ms-transition:font-size 0.3s ease;
+    transition:font-size 0.3s ease;
+    
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float:right;   
+}
+
+#rightsidebar ul li {
+    padding: 20px 0 20px 70px; 
+    background: url(images/cloud_check.png) no-repeat left center;
+}
+
+.clear {
+    clear:both;
+}
+.footer{
+   height: 60px;
+   background-color:#f2f2f2; 
+   padding-top: 10px;  
+   margin-top: 15px;
+   margin-bottom: 30px;
+   font-family: monospace;
+   text-align: center;
+}
